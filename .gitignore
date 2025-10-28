@@ -130,3 +130,6 @@ dist
 .pnp.*
 svg/.DS_Store
 .DS_Store
+
+# AWS credentials (if generated locally)
+.aws/credentials

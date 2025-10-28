@@ -1,0 +1,55 @@
+name: Deploy to Cloudflare R2
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y inkscape webp
+    
+    - name: Generate WebP files
+      run: |
+        chmod +x ./svg2webp.sh
+        ./svg2webp.sh
+    
+    - name: Configure AWS CLI for R2
+      run: |
+        aws configure set aws_access_key_id ${{ secrets.R2_ACCESS_KEY_ID }}
+        aws configure set aws_secret_access_key ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        aws configure set default.region auto
+        aws configure set default.output json
+    
+    - name: Upload SVG files to R2
+      run: |
+        aws s3 sync ./svg/ s3://currency-icons/svg/ \
+          --endpoint-url ${{ secrets.R2_ENDPOINT_URL }} \
+          --exclude "*.DS_Store" \
+          --cache-control "public, max-age=31536000" \
+          --content-type "image/svg+xml"
+    
+    - name: Upload WebP files to R2
+      run: |
+        aws s3 sync ./webp/ s3://currency-icons/webp/ \
+          --endpoint-url ${{ secrets.R2_ENDPOINT_URL }} \
+          --exclude "*.DS_Store" \
+          --cache-control "public, max-age=31536000" \
+          --content-type "image/webp"
+    
+    - name: Upload with public-read ACL (if needed)
+      run: |
+        # Set public read permissions for all uploaded files
+        aws s3api put-bucket-acl --bucket currency-icons \
+          --endpoint-url ${{ secrets.R2_ENDPOINT_URL }} \
+          --acl public-read || true
