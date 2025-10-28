@@ -6,7 +6,7 @@ A comprehensive collection of currency and country flag icons available in both 
 
 - **300+ Icons**: Flags of countries, regions, and cryptocurrency symbols
 - **Multiple Formats**: Original SVG and optimized WebP versions
-- **Multiple Sizes**: WebP icons in 32px, 48px, 64px, 128px, and 256px
+- **Multiple Sizes**: WebP icons in 32px, 48px, 64px, 128px, 256px and 512px
 - **Automatic Deployment**: GitHub Actions for seamless R2 Object Storage deployment
 - **CDN Ready**: Optimized for Cloudflare R2 with proper cache headers
 
@@ -28,6 +28,7 @@ A comprehensive collection of currency and country flag icons available in both 
 - 64×64px
 - 128×128px
 - 256×256px
+- 512x512px
 
 ## Development
 
@@ -46,10 +47,6 @@ brew install awscli
 ```bash
 ./svg2webp.sh
 ```
-
-## Deployment
-
-See [R2_SETUP.md](R2_SETUP.md) for detailed setup instructions.
 
 ### Quick Setup
 

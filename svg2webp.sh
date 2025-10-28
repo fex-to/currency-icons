@@ -3,7 +3,7 @@
 # Dependencies: inkscape, cwebp
 # Install: brew install inkscape webp
 
-SIZES=(32 48 64 128 256)
+SIZES=(32 48 64 128 256 512)
 SRC_DIR="./svg"
 DST_ROOT="./webp"
 

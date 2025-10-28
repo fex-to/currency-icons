@@ -47,9 +47,9 @@ jobs:
           --cache-control "public, max-age=31536000" \
           --content-type "image/webp"
     
-    - name: Upload with public-read ACL (if needed)
+    - name: Deployment completed
       run: |
-        # Set public read permissions for all uploaded files
-        aws s3api put-bucket-acl --bucket currency-icons \
-          --endpoint-url ${{ secrets.R2_ENDPOINT_URL }} \
-          --acl public-read || true
+        echo "✅ Deployment completed successfully!"
+        echo "📁 SVG files uploaded to: s3://currency-icons/svg/"
+        echo "🖼️ WebP files uploaded to: s3://currency-icons/webp/"
+        echo "🌐 Files are now available via your R2 custom domain"
