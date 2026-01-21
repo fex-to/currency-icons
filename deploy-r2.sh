@@ -24,6 +24,14 @@ if ! command -v aws &> /dev/null; then
     exit 1
 fi
 
+# Load .env file if it exists
+if [[ -f ".env" ]]; then
+    echo -e "${GREEN}Loading environment variables from .env file${NC}"
+    set -a
+    source .env
+    set +a
+fi
+
 # Check environment variables
 if [[ -z "$R2_ENDPOINT_URL" || -z "$R2_ACCESS_KEY_ID" || -z "$R2_SECRET_ACCESS_KEY" ]]; then
     echo -e "${RED}Please set the following environment variables:${NC}"
@@ -35,12 +43,6 @@ if [[ -z "$R2_ENDPOINT_URL" || -z "$R2_ACCESS_KEY_ID" || -z "$R2_SECRET_ACCESS_K
     exit 1
 fi
 
-# Load .env file if it exists
-if [[ -f ".env" ]]; then
-    echo -e "${GREEN}Loading environment variables from .env file${NC}"
-    source .env
-fi
-
 echo -e "${GREEN}Starting deployment to Cloudflare R2...${NC}"
 
 # Configure AWS CLI for R2
@@ -48,16 +50,6 @@ aws configure set aws_access_key_id "$R2_ACCESS_KEY_ID"
 aws configure set aws_secret_access_key "$R2_SECRET_ACCESS_KEY"
 aws configure set default.region auto
 aws configure set default.output json
-
-# Generate WebP files if they don't exist or are outdated
-echo -e "${YELLOW}Checking WebP files...${NC}"
-if [[ ! -d "./webp" ]] || [[ $(find ./svg -name "*.svg" -newer ./webp 2>/dev/null | wc -l) -gt 0 ]]; then
-    echo -e "${YELLOW}Generating WebP files...${NC}"
-    chmod +x ./svg2webp.sh
-    ./svg2webp.sh
-else
-    echo -e "${GREEN}WebP files are up to date${NC}"
-fi
 
 # Upload SVG files
 echo -e "${YELLOW}Uploading SVG files to R2...${NC}"
