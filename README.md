@@ -5,8 +5,10 @@ Currency, flag, and provider icon assets in SVG, PNG, and WebP formats.
 ## Structure
 
 - `currencies/svg/` - canonical source SVG files for currency icons
+- `currencies/png/<size>/` - canonical generated PNG files for currency icons
 - `currencies/webp/<size>/` - canonical generated WebP files for currency icons
 - `svg/` - legacy compatibility mirror for currency SVG files
+- `png/<size>/` - legacy compatibility mirror for currency PNG files
 - `webp/<size>/` - legacy compatibility mirror for currency WebP files
 - `providers/<version>/svg/` - provider SVG assets
 - `providers/<version>/png/<size>/` - provider PNG assets
@@ -37,7 +39,7 @@ sudo apt-get install -y inkscape librsvg2-bin webp awscli
 
 Generated sizes: `32`, `48`, `64`, `128`, `256`, `512`.
 
-The canonical currency output lives under `currencies/`. The root `svg/` and `webp/` folders remain as compatibility mirrors for existing consumers.
+The canonical currency output lives under `currencies/`. The root `svg/`, `png/`, and `webp/` folders remain as compatibility mirrors for existing consumers.
 
 ## Import Provider Icons
 
@@ -104,7 +106,7 @@ You can also load them from `.env`.
 Recommended local flow:
 
 1. Configure `R2_ENDPOINT_URL`, `R2_ACCESS_KEY_ID`, and `R2_SECRET_ACCESS_KEY` in your shell or in `.env`.
-2. Regenerate currency WebP assets with `./svg2webp.sh`. This refreshes `currencies/webp/` and syncs the legacy root `webp/` mirror.
+2. Regenerate currency raster assets. `./svg2webp.sh` refreshes `currencies/webp/` and syncs the legacy root `webp/` mirror. If PNG assets changed, refresh `currencies/png/` and `png/` as part of the same update.
 3. If provider assets changed, refresh them with `./import-provider-icons.sh --version 3.1.16` or another required version.
 4. Commit provider SVG, PNG, and WebP assets together with refreshed provider manifests.
 5. Run `./deploy-r2.sh` for a full publish to R2, or `./deploy-providers-r2.sh` when only provider assets need to be published.
@@ -125,8 +127,10 @@ Examples:
 
 ```text
 https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/currencies/svg/usd.svg
+https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/currencies/png/64/usd.png
 https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/currencies/webp/64/usd.webp
 https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/svg/usd.svg
+https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/png/64/usd.png
 https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/webp/64/usd.webp
 https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/providers/index.json
 https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/providers/3.1.16/index.json
@@ -160,7 +164,7 @@ const iconUrl = `https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/provider
 ## Notes
 
 - generated provider asset directories are tracked in Git
-- currency assets are now organized under `currencies/`, while root `svg/` and `webp/` are kept as compatibility mirrors
+- currency assets are now organized under `currencies/`, while root `svg/`, `png/`, and `webp/` are kept as compatibility mirrors
 - `providers/index.json`, `providers/<version>/index.json`, and `providers/<version>/metadata.json` stay tracked
 - the current imported provider-icons version is `3.1.16`
 - `providers/3.1.16` currently contains generated provider assets and metadata for jsDelivr and local deployment
