@@ -95,10 +95,11 @@ export R2_SECRET_ACCESS_KEY="..."
 
 You can also load them from `.env`.
 
-## GitHub Actions
+## Deployment Mode
 
-- `.github/workflows/deploy-r2.yml` - full deploy workflow
-- `.github/workflows/deploy-providers-r2.yml` - manual provider-only deploy workflow
+GitHub Actions workflows are not used for generation or deployment.
+
+Run generation and deployment locally with the scripts in this repository.
 
 ## Notes
 
