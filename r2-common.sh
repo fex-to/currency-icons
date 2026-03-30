@@ -161,7 +161,11 @@ print_currency_url_templates() {
     return 1
   fi
 
+  echo "Currencies SVG: ${base_url}/currencies/svg/filename.svg"
+  echo "Currencies PNG: ${base_url}/currencies/png/SIZE/filename.png"
+  echo "Currencies WebP: ${base_url}/currencies/webp/SIZE/filename.webp"
   echo "SVG: ${base_url}/svg/filename.svg"
+  echo "PNG: ${base_url}/png/SIZE/filename.png"
   echo "WebP: ${base_url}/webp/SIZE/filename.webp"
 }
 
