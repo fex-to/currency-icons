@@ -17,14 +17,14 @@ Currency, flag, and provider icon assets in SVG, PNG, and WebP formats.
 macOS:
 
 ```bash
-brew install librsvg webp awscli
+brew install inkscape librsvg webp awscli
 ```
 
 Ubuntu:
 
 ```bash
 sudo apt-get update
-sudo apt-get install -y librsvg2-bin webp awscli
+sudo apt-get install -y inkscape librsvg2-bin webp awscli
 ```
 
 ## Generate Currency WebP
