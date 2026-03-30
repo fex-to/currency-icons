@@ -62,15 +62,12 @@ Force rebuild:
 ```
 
 The importer downloads assets from `fex-to/provider-icons`, copies SVG files, generates PNG and WebP variants, and refreshes the root manifest plus a per-version provider index.
-
 Mixed upstream tag formats are supported, including both `v3.1.14` and `3.1.16`.
 
 ## Provider Index Format
 
 `providers/index.json` stores available versions and points to `providers/<version>/index.json` and `providers/<version>/metadata.json`.
-
 Each `providers/<version>/index.json` uses uppercase provider IDs as keys and stores only the file basename plus available formats and sizes.
-
 Paths are resolved by convention:
 
 - SVG: `providers/<version>/svg/<filename>.svg`
@@ -122,16 +119,18 @@ https://cdn.jsdelivr.net/gh/fex-to/currency-icons@<ref>/...
 ```
 
 Use a tag or commit SHA for production clients. `@main` is convenient during development but less reproducible.
+Directory listings on jsDelivr can lag behind the latest branch state. Prefer direct file URLs for runtime usage, and pin a commit SHA when you need deterministic assets.
 
 Examples:
 
 ```text
-https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/currencies/svg/usd.svg
-https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/currencies/png/64/usd.png
-https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/currencies/webp/64/usd.webp
-https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/svg/usd.svg
-https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/png/64/usd.png
-https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/webp/64/usd.webp
+https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/currencies/svg/litecoin.svg
+https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/currencies/png/64/litecoin.png
+https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/currencies/webp/64/litecoin.webp
+https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/svg/litecoin.svg
+https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/png/64/litecoin.png
+https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/webp/64/litecoin.webp
+https://cdn.jsdelivr.net/gh/fex-to/currency-icons@b6fa427a8e6db7e377ab976067eb767f4b5ede7d/currencies/svg/tether.svg
 https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/providers/index.json
 https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/providers/3.1.16/index.json
 https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/providers/3.1.16/svg/boa.svg
@@ -143,8 +142,8 @@ Usage example:
 
 ```html
 <img
-  src="https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/currencies/webp/64/usd.webp"
-  alt="USD"
+  src="https://cdn.jsdelivr.net/gh/fex-to/currency-icons@main/currencies/webp/64/litecoin.webp"
+  alt="Litecoin"
   width="64"
   height="64"
 />
