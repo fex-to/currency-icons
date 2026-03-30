@@ -20,16 +20,22 @@ if ! require_r2_env; then
 fi
 
 if [[ ! -d "$PROVIDERS_ROOT" ]]; then
-  echo -e "${RED}Providers directory not found: $PROVIDERS_ROOT${NC}"
+  print_error "Providers directory not found: $PROVIDERS_ROOT"
   exit 1
 fi
 
 configure_r2_aws_cli
 
-echo -e "${GREEN}Starting provider-only deployment to Cloudflare R2...${NC}"
+print_success "Starting provider-only deployment to Cloudflare R2..."
 upload_provider_assets "$PROVIDERS_ROOT" "$BUCKET_NAME"
 
 provider_count="$(count_s3_objects "$BUCKET_NAME" "providers/")"
 
-echo -e "${GREEN}✓ Provider files uploaded: $provider_count${NC}"
-print_provider_url_templates
+print_success "Provider files uploaded: $provider_count"
+require_nonzero_count "Provider" "$provider_count"
+if has_public_base_url; then
+  print_success "Public URLs:"
+  print_provider_url_templates
+fi
+
+print_custom_domain_hint

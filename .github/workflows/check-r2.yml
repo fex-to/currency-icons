@@ -1,0 +1,38 @@
+name: Check Asset Pipeline
+
+on:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install build dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y inkscape webp
+
+    - name: Validate shell scripts
+      run: |
+        bash -n ./r2-common.sh ./deploy-r2.sh ./deploy-providers-r2.sh ./import-provider-icons.sh ./svg2webp.sh
+
+    - name: Generate WebP files
+      run: |
+        chmod +x ./svg2webp.sh
+        ./svg2webp.sh
+
+    - name: Verify generated assets
+      run: |
+        test -d ./webp/32
+        test -d ./webp/48
+        test -d ./webp/64
+        test -d ./webp/128
+        test -d ./webp/256
+        test -d ./webp/512
+        test "$(find ./webp -type f | wc -l)" -gt 0

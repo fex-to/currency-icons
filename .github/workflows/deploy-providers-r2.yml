@@ -6,15 +6,40 @@ on:
 jobs:
   deploy-providers:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    concurrency:
+      group: deploy-providers-r2
+      cancel-in-progress: false
+    permissions:
+      contents: read
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Install dependencies
+    - name: Install AWS CLI v2
       run: |
+        set -euo pipefail
         sudo apt-get update
-        sudo apt-get install -y awscli
+        sudo apt-get install -y unzip
+        curl -fsSL https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip -o /tmp/awscliv2.zip
+        unzip -q /tmp/awscliv2.zip -d /tmp
+        sudo /tmp/aws/install
+        rm -rf /tmp/awscliv2.zip /tmp/aws
+        aws --version
+
+    - name: Validate deploy prerequisites
+      env:
+        R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
+        R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+        R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      run: |
+        set -euo pipefail
+        test -n "$R2_ENDPOINT_URL"
+        test -n "$R2_ACCESS_KEY_ID"
+        test -n "$R2_SECRET_ACCESS_KEY"
+        test -d ./providers
+        aws s3 ls s3://currency-icons/ --endpoint-url "$R2_ENDPOINT_URL" >/dev/null
 
     - name: Deploy providers to R2
       env:
@@ -22,5 +47,6 @@ jobs:
         R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
         R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
       run: |
+        set -euo pipefail
         chmod +x ./deploy-providers-r2.sh
         ./deploy-providers-r2.sh
