@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -euo pipefail
+shopt -s nullglob
 
 REPO_URL="https://github.com/fex-to/provider-icons.git"
 ARCHIVE_BASE_URL="https://github.com/fex-to/provider-icons/archive/refs"
@@ -92,6 +93,78 @@ resolve_archive_tag() {
 
   echo "Unable to resolve provider-icons tag: ${requested_tag}" >&2
   exit 1
+}
+
+resolve_version_context() {
+  if [[ "$VERSION_INPUT" == "latest" ]]; then
+    VERSION="$(resolve_latest_tag)"
+    ARCHIVE_URL="${ARCHIVE_BASE_URL}/tags/${VERSION}.tar.gz"
+    VERSION_DIR_NAME="$VERSION"
+    return 0
+  fi
+
+  if [[ "$VERSION_INPUT" == "main" ]]; then
+    VERSION="main"
+    ARCHIVE_URL="${ARCHIVE_BASE_URL}/heads/main.tar.gz"
+    VERSION_DIR_NAME="main-$(date -u +%Y%m%d%H%M%S)"
+    return 0
+  fi
+
+  VERSION="$(resolve_archive_tag "$VERSION_INPUT")"
+  ARCHIVE_URL="${ARCHIVE_BASE_URL}/tags/${VERSION}.tar.gz"
+  VERSION_DIR_NAME="$VERSION"
+}
+
+prepare_destination_dir() {
+  DEST_DIR="${OUTPUT_ROOT}/${VERSION_DIR_NAME}"
+
+  if [[ -d "$DEST_DIR" ]]; then
+    if [[ "$FORCE" -ne 1 ]]; then
+      echo "Destination already exists: $DEST_DIR" >&2
+      echo "Use --force to rebuild it" >&2
+      exit 1
+    fi
+
+    rm -rf "$DEST_DIR"
+  fi
+}
+
+find_source_svg_dir() {
+  local extracted_dir="$1"
+  local svg_dir="${extracted_dir}/icons"
+
+  if [[ ! -d "$svg_dir" ]]; then
+    svg_dir="${extracted_dir}/packages/icons/icons"
+  fi
+
+  if [[ ! -d "$svg_dir" ]]; then
+    echo "Unable to locate SVG icons directory in provider-icons archive" >&2
+    exit 1
+  fi
+
+  printf '%s\n' "$svg_dir"
+}
+
+create_output_directories() {
+  mkdir -p "$DEST_DIR/svg" "$DEST_DIR/png" "$DEST_DIR/webp"
+
+  for size in "${SIZES[@]}"; do
+    mkdir -p "$DEST_DIR/png/$size" "$DEST_DIR/webp/$size"
+  done
+}
+
+write_metadata_file() {
+  cat > "$DEST_DIR/metadata.json" <<EOF
+{
+  "source": "fex-to/provider-icons",
+  "requestedVersion": "${VERSION_INPUT}",
+  "resolvedVersion": "${VERSION}",
+  "outputVersion": "${VERSION_DIR_NAME}",
+  "sizes": [32, 48, 64, 128, 256, 512],
+  "iconCount": ${icon_count},
+  "importedAt": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+}
+EOF
 }
 
 render_png_and_webp() {
@@ -203,31 +276,8 @@ if [[ -z "$VERSION_INPUT" ]]; then
   exit 1
 fi
 
-if [[ "$VERSION_INPUT" == "latest" ]]; then
-  VERSION="$(resolve_latest_tag)"
-  ARCHIVE_URL="${ARCHIVE_BASE_URL}/tags/${VERSION}.tar.gz"
-  VERSION_DIR_NAME="$VERSION"
-elif [[ "$VERSION_INPUT" == "main" ]]; then
-  VERSION="main"
-  ARCHIVE_URL="${ARCHIVE_BASE_URL}/heads/main.tar.gz"
-  VERSION_DIR_NAME="main-$(date -u +%Y%m%d%H%M%S)"
-else
-  VERSION="$(resolve_archive_tag "$VERSION_INPUT")"
-  ARCHIVE_URL="${ARCHIVE_BASE_URL}/tags/${VERSION}.tar.gz"
-  VERSION_DIR_NAME="$VERSION"
-fi
-
-DEST_DIR="${OUTPUT_ROOT}/${VERSION_DIR_NAME}"
-
-if [[ -d "$DEST_DIR" ]]; then
-  if [[ "$FORCE" -ne 1 ]]; then
-    echo "Destination already exists: $DEST_DIR" >&2
-    echo "Use --force to rebuild it" >&2
-    exit 1
-  fi
-
-  rm -rf "$DEST_DIR"
-fi
+resolve_version_context
+prepare_destination_dir
 
 TMP_DIR="$(mktemp -d)"
 trap 'rm -rf "$TMP_DIR"' EXIT
@@ -241,28 +291,13 @@ echo "Extracting archive..."
 tar -xzf "$ARCHIVE_PATH" -C "$TMP_DIR"
 
 EXTRACTED_DIR="$(find "$TMP_DIR" -mindepth 1 -maxdepth 1 -type d | head -n 1)"
-SRC_SVG_DIR="${EXTRACTED_DIR}/icons"
+SRC_SVG_DIR="$(find_source_svg_dir "$EXTRACTED_DIR")"
 
-if [[ ! -d "$SRC_SVG_DIR" ]]; then
-  SRC_SVG_DIR="${EXTRACTED_DIR}/packages/icons/icons"
-fi
-
-if [[ ! -d "$SRC_SVG_DIR" ]]; then
-  echo "Unable to locate SVG icons directory in provider-icons archive" >&2
-  exit 1
-fi
-
-mkdir -p "$DEST_DIR/svg" "$DEST_DIR/png" "$DEST_DIR/webp"
-
-for size in "${SIZES[@]}"; do
-  mkdir -p "$DEST_DIR/png/$size" "$DEST_DIR/webp/$size"
-done
+create_output_directories
 
 icon_count=0
 
 for svg_file in "$SRC_SVG_DIR"/*.svg; do
-  [[ -e "$svg_file" ]] || continue
-
   file_name="$(basename "${svg_file%.svg}")"
   cp "$svg_file" "$DEST_DIR/svg/${file_name}.svg"
   render_png_and_webp "$svg_file" "$DEST_DIR/png" "$DEST_DIR/webp" "$file_name"
@@ -278,17 +313,7 @@ if (( icon_count == 0 )); then
   exit 1
 fi
 
-cat > "$DEST_DIR/metadata.json" <<EOF
-{
-  "source": "fex-to/provider-icons",
-  "requestedVersion": "${VERSION_INPUT}",
-  "resolvedVersion": "${VERSION}",
-  "outputVersion": "${VERSION_DIR_NAME}",
-  "sizes": [32, 48, 64, 128, 256, 512],
-  "iconCount": ${icon_count},
-  "importedAt": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-}
-EOF
+write_metadata_file
 
 generate_providers_indexes "$OUTPUT_ROOT"
 
