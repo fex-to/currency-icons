@@ -1,0 +1,26 @@
+name: Deploy Providers to R2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy-providers:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y awscli
+
+    - name: Deploy providers to R2
+      env:
+        R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
+        R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+        R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      run: |
+        chmod +x ./deploy-providers-r2.sh
+        ./deploy-providers-r2.sh

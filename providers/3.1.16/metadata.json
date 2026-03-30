@@ -1,0 +1,9 @@
+{
+  "source": "fex-to/provider-icons",
+  "requestedVersion": "3.1.16",
+  "resolvedVersion": "3.1.16",
+  "outputVersion": "3.1.16",
+  "sizes": [32, 48, 64, 128, 256, 512],
+  "iconCount": 253,
+  "importedAt": "2026-03-30T15:00:29Z"
+}

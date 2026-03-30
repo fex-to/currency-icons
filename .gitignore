@@ -133,3 +133,13 @@ svg/.DS_Store
 
 # AWS credentials (if generated locally)
 .aws/credentials
+
+# Generated provider bundles
+providers/*/
+!providers/index.json
+!providers/*/
+providers/*/svg/
+providers/*/png/
+providers/*/webp/
+!providers/*/index.json
+!providers/*/metadata.json

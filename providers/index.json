@@ -1,0 +1,31 @@
+{
+  "versions": {
+    "3.1.16": {
+      "path": "providers/3.1.16",
+      "index": "providers/3.1.16/index.json",
+      "iconCount": 253,
+      "formats": {
+        "svg": true,
+        "png": [
+          "32",
+          "48",
+          "64",
+          "128",
+          "256",
+          "512"
+        ],
+        "webp": [
+          "32",
+          "48",
+          "64",
+          "128",
+          "256",
+          "512"
+        ]
+      },
+      "metadata": "providers/3.1.16/metadata.json",
+      "importedAt": "2026-03-30T15:00:29Z",
+      "resolvedVersion": "3.1.16"
+    }
+  }
+}

@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
 # Script for manual deployment to Cloudflare R2
-# This script uploads both SVG and generated WebP files to R2 Object Storage
+# This script uploads currency icons and provider icons to R2 Object Storage
 
-set -e
+set -euo pipefail
+shopt -s nullglob
 
 # Colors for output
 RED='\033[0;31m'
@@ -63,17 +64,78 @@ aws s3 sync ./svg/ s3://$BUCKET_NAME/svg/ \
 # Upload WebP files
 echo -e "${YELLOW}Uploading WebP files to R2...${NC}"
 for size_dir in ./webp/*/; do
-    if [[ -d "$size_dir" ]]; then
-        size=$(basename "$size_dir")
-        echo -e "${YELLOW}Uploading ${size}px WebP files...${NC}"
-        aws s3 sync "$size_dir" s3://$BUCKET_NAME/webp/$size/ \
-            --endpoint-url "$R2_ENDPOINT_URL" \
-            --exclude "*.DS_Store" \
-            --cache-control "public, max-age=31536000" \
-            --content-type "image/webp" \
-            --delete
-    fi
+    size=$(basename "$size_dir")
+    echo -e "${YELLOW}Uploading ${size}px WebP files...${NC}"
+    aws s3 sync "$size_dir" s3://$BUCKET_NAME/webp/$size/ \
+        --endpoint-url "$R2_ENDPOINT_URL" \
+        --exclude "*.DS_Store" \
+        --cache-control "public, max-age=31536000" \
+        --content-type "image/webp" \
+        --delete
 done
+
+# Upload Provider icons if available
+if [[ -d "./providers" ]]; then
+    echo -e "${YELLOW}Uploading provider icons to R2...${NC}"
+
+    for index_file in ./providers/index.json; do
+        if [[ -f "$index_file" ]]; then
+            file_name=$(basename "$index_file")
+            echo -e "${YELLOW}Uploading provider index ${file_name}...${NC}"
+            aws s3 cp "$index_file" s3://$BUCKET_NAME/providers/$file_name \
+                --endpoint-url "$R2_ENDPOINT_URL" \
+                --cache-control "public, max-age=300" \
+                --content-type "application/json"
+        fi
+    done
+
+    for version_dir in ./providers/*/; do
+        version=$(basename "$version_dir")
+
+        for version_json in "$version_dir/index.json" "$version_dir/metadata.json"; do
+            if [[ -f "$version_json" ]]; then
+                file_name=$(basename "$version_json")
+                echo -e "${YELLOW}Uploading provider ${file_name} for ${version}...${NC}"
+                aws s3 cp "$version_json" s3://$BUCKET_NAME/providers/$version/$file_name \
+                    --endpoint-url "$R2_ENDPOINT_URL" \
+                    --cache-control "public, max-age=300" \
+                    --content-type "application/json"
+            fi
+        done
+
+        if [[ -d "$version_dir/svg" ]]; then
+            echo -e "${YELLOW}Uploading provider SVG files for ${version}...${NC}"
+            aws s3 sync "$version_dir/svg/" s3://$BUCKET_NAME/providers/$version/svg/ \
+                --endpoint-url "$R2_ENDPOINT_URL" \
+                --exclude "*.DS_Store" \
+                --cache-control "public, max-age=31536000" \
+                --content-type "image/svg+xml" \
+                --delete
+        fi
+
+        for size_dir in "$version_dir"/png/*/; do
+            size=$(basename "$size_dir")
+            echo -e "${YELLOW}Uploading provider PNG ${size}px for ${version}...${NC}"
+            aws s3 sync "$size_dir" s3://$BUCKET_NAME/providers/$version/png/$size/ \
+                --endpoint-url "$R2_ENDPOINT_URL" \
+                --exclude "*.DS_Store" \
+                --cache-control "public, max-age=31536000" \
+                --content-type "image/png" \
+                --delete
+        done
+
+        for size_dir in "$version_dir"/webp/*/; do
+            size=$(basename "$size_dir")
+            echo -e "${YELLOW}Uploading provider WebP ${size}px for ${version}...${NC}"
+            aws s3 sync "$size_dir" s3://$BUCKET_NAME/providers/$version/webp/$size/ \
+                --endpoint-url "$R2_ENDPOINT_URL" \
+                --exclude "*.DS_Store" \
+                --cache-control "public, max-age=31536000" \
+                --content-type "image/webp" \
+                --delete
+        done
+    done
+fi
 
 # List uploaded files (optional)
 echo -e "${GREEN}Deployment completed!${NC}"
@@ -82,13 +144,28 @@ echo -e "${YELLOW}Checking uploaded files:${NC}"
 # Show file count
 svg_count=$(aws s3 ls s3://$BUCKET_NAME/svg/ --endpoint-url "$R2_ENDPOINT_URL" --recursive | wc -l)
 webp_count=$(aws s3 ls s3://$BUCKET_NAME/webp/ --endpoint-url "$R2_ENDPOINT_URL" --recursive | wc -l)
+provider_count=0
+
+if [[ -d "./providers" ]]; then
+    provider_count=$(aws s3 ls s3://$BUCKET_NAME/providers/ --endpoint-url "$R2_ENDPOINT_URL" --recursive | wc -l)
+fi
 
 echo -e "${GREEN}✓ SVG files uploaded: $svg_count${NC}"
 echo -e "${GREEN}✓ WebP files uploaded: $webp_count${NC}"
+if [[ -d "./providers" ]]; then
+    echo -e "${GREEN}✓ Provider files uploaded: $provider_count${NC}"
+fi
 
 echo ""
 echo -e "${GREEN}Files are now available at:${NC}"
 echo "SVG: https://currency-icons.YOUR_CUSTOM_DOMAIN/svg/filename.svg"
 echo "WebP: https://currency-icons.YOUR_CUSTOM_DOMAIN/webp/SIZE/filename.webp"
+if [[ -d "./providers" ]]; then
+    echo "Providers SVG: https://currency-icons.YOUR_CUSTOM_DOMAIN/providers/VERSION/svg/provider.svg"
+    echo "Providers PNG: https://currency-icons.YOUR_CUSTOM_DOMAIN/providers/VERSION/png/SIZE/provider.png"
+    echo "Providers WebP: https://currency-icons.YOUR_CUSTOM_DOMAIN/providers/VERSION/webp/SIZE/provider.webp"
+    echo "Providers index: https://currency-icons.YOUR_CUSTOM_DOMAIN/providers/index.json"
+    echo "Providers version index: https://currency-icons.YOUR_CUSTOM_DOMAIN/providers/VERSION/index.json"
+fi
 echo ""
 echo -e "${YELLOW}Note: Replace YOUR_CUSTOM_DOMAIN with your actual R2 custom domain${NC}"

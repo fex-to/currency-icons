@@ -1,69 +1,111 @@
 # Currency Icons
 
-A comprehensive collection of currency and country flag icons available in both SVG and WebP formats.
+Currency, flag, and provider icon assets in SVG, PNG, and WebP formats.
 
-## Features
+## Structure
 
-- **300+ Icons**: Flags of countries, regions, and cryptocurrency symbols
-- **Multiple Formats**: Original SVG and optimized WebP versions
-- **Multiple Sizes**: WebP icons in 32px, 48px, 64px, 128px, 256px and 512px
-- **Automatic Deployment**: GitHub Actions for seamless R2 Object Storage deployment
-- **CDN Ready**: Optimized for Cloudflare R2 with proper cache headers
+- `svg/` - source SVG files for currency icons
+- `webp/<size>/` - generated WebP files for currency icons
+- `providers/<version>/svg/` - provider SVG assets
+- `providers/<version>/png/<size>/` - provider PNG assets
+- `providers/<version>/webp/<size>/` - provider WebP assets
+- `providers/index.json` - provider versions manifest
+- `providers/<version>/index.json` - provider asset map for one version
 
-## Usage
+## Requirements
 
-### Direct Access (when deployed to R2)
-
-```html
-<!-- SVG format -->
-<img src="https://currency-icons.yourdomain.com/svg/us.svg" alt="US Dollar" />
-
-<!-- WebP format (64px) -->
-<img src="https://currency-icons.yourdomain.com/webp/64/us.webp" alt="US Dollar" width="64" height="64" />
-```
-
-### Available Sizes (WebP)
-- 32×32px
-- 48×48px  
-- 64×64px
-- 128×128px
-- 256×256px
-- 512x512px
-
-## Development
-
-### Prerequisites
+macOS:
 
 ```bash
-# Install dependencies (macOS)
-brew install inkscape webp
-
-# Install AWS CLI for R2 deployment
-brew install awscli
+brew install librsvg webp awscli
 ```
 
-### Generate WebP Files
+Ubuntu:
+
+```bash
+sudo apt-get update
+sudo apt-get install -y librsvg2-bin webp awscli
+```
+
+## Generate Currency WebP
 
 ```bash
 ./svg2webp.sh
 ```
 
-### Quick Setup
+Generated sizes: `32`, `48`, `64`, `128`, `256`, `512`.
 
-1. Set up GitHub repository secrets for R2 credentials
-2. Push to main branch - automatic deployment via GitHub Actions
-3. Or deploy manually using `./deploy-r2.sh`
+## Import Provider Icons
 
-## Available Icons
+Import the latest release:
 
-The collection includes:
-- Country flags (ISO 3166-1 codes)
-- Regional flags and subdivisions  
-- Cryptocurrency symbols (Bitcoin, Ethereum, etc.)
-- Precious metals (Gold, Silver, Platinum, Palladium)
-- International organizations (UN, NATO, EU, etc.)
+```bash
+./import-provider-icons.sh
+```
+
+Import a specific version:
+
+```bash
+./import-provider-icons.sh --version 3.1.16
+```
+
+Force rebuild:
+
+```bash
+./import-provider-icons.sh --version 3.1.16 --force
+```
+
+The importer downloads assets from `fex-to/provider-icons`, copies SVG files, generates PNG and WebP variants, and refreshes the root manifest plus a per-version provider index.
+
+Mixed upstream tag formats are supported, including both `v3.1.14` and `3.1.16`.
+
+## Provider Index Format
+
+`providers/index.json` stores available versions and points to `providers/<version>/index.json` and `providers/<version>/metadata.json`.
+
+Each `providers/<version>/index.json` uses uppercase provider IDs as keys and stores only the file basename plus available formats and sizes.
+
+Paths are resolved by convention:
+
+- SVG: `providers/<version>/svg/<filename>.svg`
+- PNG: `providers/<version>/png/<size>/<filename>.png`
+- WebP: `providers/<version>/webp/<size>/<filename>.webp`
+
+## Deploy To Cloudflare R2
+
+Full deploy:
+
+```bash
+./deploy-r2.sh
+```
+
+Provider-only deploy:
+
+```bash
+./deploy-providers-r2.sh
+```
+
+Required environment variables:
+
+```bash
+export R2_ENDPOINT_URL="https://<account>.r2.cloudflarestorage.com"
+export R2_ACCESS_KEY_ID="..."
+export R2_SECRET_ACCESS_KEY="..."
+```
+
+You can also load them from `.env`.
+
+## GitHub Actions
+
+- `.github/workflows/deploy-r2.yml` - full deploy workflow
+- `.github/workflows/deploy-providers-r2.yml` - manual provider-only deploy workflow
+
+## Notes
+
+- generated provider asset directories stay ignored by Git
+- `providers/index.json`, `providers/<version>/index.json`, and `providers/<version>/metadata.json` stay tracked
+- the current imported provider-icons version is `3.1.16`
 
 ## License
 
-See [LICENSE](LICENSE) file for details.
-
+See `LICENSE`.

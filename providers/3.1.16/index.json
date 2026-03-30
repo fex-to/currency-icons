@@ -1,0 +1,6074 @@
+{
+  "AECB": {
+    "id": "AECB",
+    "name": "aecb",
+    "files": {
+      "filename": "aecb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "AFCB": {
+    "id": "AFCB",
+    "name": "afcb",
+    "files": {
+      "filename": "afcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "AFIRME": {
+    "id": "AFIRME",
+    "name": "afirme",
+    "files": {
+      "filename": "afirme",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ALBA": {
+    "id": "ALBA",
+    "name": "alba",
+    "files": {
+      "filename": "alba",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "AMCB": {
+    "id": "AMCB",
+    "name": "amcb",
+    "files": {
+      "filename": "amcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ANZ": {
+    "id": "ANZ",
+    "name": "anz",
+    "files": {
+      "filename": "anz",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "AOCB": {
+    "id": "AOCB",
+    "name": "aocb",
+    "files": {
+      "filename": "aocb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ARCB": {
+    "id": "ARCB",
+    "name": "arcb",
+    "files": {
+      "filename": "arcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ATNB": {
+    "id": "ATNB",
+    "name": "atnb",
+    "files": {
+      "filename": "atnb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "AUBANKSYD": {
+    "id": "AUBANKSYD",
+    "name": "aubanksyd",
+    "files": {
+      "filename": "aubanksyd",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "AUBANKWEST": {
+    "id": "AUBANKWEST",
+    "name": "aubankwest",
+    "files": {
+      "filename": "aubankwest",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "AUBENDIGOBANK": {
+    "id": "AUBENDIGOBANK",
+    "name": "aubendigobank",
+    "files": {
+      "filename": "aubendigobank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "AUCOMMBANK": {
+    "id": "AUCOMMBANK",
+    "name": "aucommbank",
+    "files": {
+      "filename": "aucommbank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "AURB": {
+    "id": "AURB",
+    "name": "aurb",
+    "files": {
+      "filename": "aurb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "AZCB": {
+    "id": "AZCB",
+    "name": "azcb",
+    "files": {
+      "filename": "azcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BACB": {
+    "id": "BACB",
+    "name": "bacb",
+    "files": {
+      "filename": "bacb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BANCATRANSILVANIA": {
+    "id": "BANCATRANSILVANIA",
+    "name": "bancatransilvania",
+    "files": {
+      "filename": "bancatransilvania",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BANCOAZTECA": {
+    "id": "BANCOAZTECA",
+    "name": "bancoazteca",
+    "files": {
+      "filename": "bancoazteca",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BANKMILLENNIUM": {
+    "id": "BANKMILLENNIUM",
+    "name": "bankmillennium",
+    "files": {
+      "filename": "bankmillennium",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BBCB": {
+    "id": "BBCB",
+    "name": "bbcb",
+    "files": {
+      "filename": "bbcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BBVA": {
+    "id": "BBVA",
+    "name": "bbva",
+    "files": {
+      "filename": "bbva",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BCEAOCB": {
+    "id": "BCEAOCB",
+    "name": "bceaocb",
+    "files": {
+      "filename": "bceaocb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BCR": {
+    "id": "BCR",
+    "name": "bcr",
+    "files": {
+      "filename": "bcr",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BDCB": {
+    "id": "BDCB",
+    "name": "bdcb",
+    "files": {
+      "filename": "bdcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BEACCB": {
+    "id": "BEACCB",
+    "name": "beaccb",
+    "files": {
+      "filename": "beaccb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BGCURRENCYCENTER": {
+    "id": "BGCURRENCYCENTER",
+    "name": "bgcurrencycenter",
+    "files": {
+      "filename": "bgcurrencycenter",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BGNB": {
+    "id": "BGNB",
+    "name": "bgnb",
+    "files": {
+      "filename": "bgnb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BGPOSTBANK": {
+    "id": "BGPOSTBANK",
+    "name": "bgpostbank",
+    "files": {
+      "filename": "bgpostbank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BHCB": {
+    "id": "BHCB",
+    "name": "bhcb",
+    "files": {
+      "filename": "bhcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BICB": {
+    "id": "BICB",
+    "name": "bicb",
+    "files": {
+      "filename": "bicb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BLUELYTICS": {
+    "id": "BLUELYTICS",
+    "name": "bluelytics",
+    "files": {
+      "filename": "bluelytics",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BNPPARIBAS": {
+    "id": "BNPPARIBAS",
+    "name": "bnpparibas",
+    "files": {
+      "filename": "bnpparibas",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BNZ": {
+    "id": "BNZ",
+    "name": "bnz",
+    "files": {
+      "filename": "bnz",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BOA": {
+    "id": "BOA",
+    "name": "boa",
+    "files": {
+      "filename": "boa",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BOCB": {
+    "id": "BOCB",
+    "name": "bocb",
+    "files": {
+      "filename": "bocb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BOQ": {
+    "id": "BOQ",
+    "name": "boq",
+    "files": {
+      "filename": "boq",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BRCB": {
+    "id": "BRCB",
+    "name": "brcb",
+    "files": {
+      "filename": "brcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BRCI": {
+    "id": "BRCI",
+    "name": "brci",
+    "files": {
+      "filename": "brci",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BSCB": {
+    "id": "BSCB",
+    "name": "bscb",
+    "files": {
+      "filename": "bscb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BTRMA": {
+    "id": "BTRMA",
+    "name": "btrma",
+    "files": {
+      "filename": "btrma",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BULBANK": {
+    "id": "BULBANK",
+    "name": "bulbank",
+    "files": {
+      "filename": "bulbank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BWCB": {
+    "id": "BWCB",
+    "name": "bwcb",
+    "files": {
+      "filename": "bwcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BYNB": {
+    "id": "BYNB",
+    "name": "bynb",
+    "files": {
+      "filename": "bynb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "BZCB": {
+    "id": "BZCB",
+    "name": "bzcb",
+    "files": {
+      "filename": "bzcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CABC": {
+    "id": "CABC",
+    "name": "cabc",
+    "files": {
+      "filename": "cabc",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CASCOTIABANK": {
+    "id": "CASCOTIABANK",
+    "name": "cascotiabank",
+    "files": {
+      "filename": "cascotiabank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CDCB": {
+    "id": "CDCB",
+    "name": "cdcb",
+    "files": {
+      "filename": "cdcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CEC": {
+    "id": "CEC",
+    "name": "cec",
+    "files": {
+      "filename": "cec",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CHCB": {
+    "id": "CHCB",
+    "name": "chcb",
+    "files": {
+      "filename": "chcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CIBANCO": {
+    "id": "CIBANCO",
+    "name": "cibanco",
+    "files": {
+      "filename": "cibanco",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CITI": {
+    "id": "CITI",
+    "name": "citi",
+    "files": {
+      "filename": "citi",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CLCB": {
+    "id": "CLCB",
+    "name": "clcb",
+    "files": {
+      "filename": "clcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CNBC": {
+    "id": "CNBC",
+    "name": "cnbc",
+    "files": {
+      "filename": "cnbc",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CNCFETS": {
+    "id": "CNCFETS",
+    "name": "cncfets",
+    "files": {
+      "filename": "cncfets",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "COCAMBIOSVANCOUVER": {
+    "id": "COCAMBIOSVANCOUVER",
+    "name": "cocambiosvancouver",
+    "files": {
+      "filename": "cocambiosvancouver",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "COCB": {
+    "id": "COCB",
+    "name": "cocb",
+    "files": {
+      "filename": "cocb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "COINDESK": {
+    "id": "COINDESK",
+    "name": "coindesk",
+    "files": {
+      "filename": "coindesk",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "COMONEYMAX": {
+    "id": "COMONEYMAX",
+    "name": "comoneymax",
+    "files": {
+      "filename": "comoneymax",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "COUNDOLAR": {
+    "id": "COUNDOLAR",
+    "name": "coundolar",
+    "files": {
+      "filename": "coundolar",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "COUNICAMBIOS": {
+    "id": "COUNICAMBIOS",
+    "name": "counicambios",
+    "files": {
+      "filename": "counicambios",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CRCB": {
+    "id": "CRCB",
+    "name": "crcb",
+    "files": {
+      "filename": "crcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CREDITAGRICOLE": {
+    "id": "CREDITAGRICOLE",
+    "name": "creditagricole",
+    "files": {
+      "filename": "creditagricole",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CREDITEUROPE": {
+    "id": "CREDITEUROPE",
+    "name": "crediteurope",
+    "files": {
+      "filename": "crediteurope",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CUAHORRO": {
+    "id": "CUAHORRO",
+    "name": "cuahorro",
+    "files": {
+      "filename": "cuahorro",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CUCB": {
+    "id": "CUCB",
+    "name": "cucb",
+    "files": {
+      "filename": "cucb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CUINTER": {
+    "id": "CUINTER",
+    "name": "cuinter",
+    "files": {
+      "filename": "cuinter",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CUMETROPOLITANO": {
+    "id": "CUMETROPOLITANO",
+    "name": "cumetropolitano",
+    "files": {
+      "filename": "cumetropolitano",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CURRENCYRATE": {
+    "id": "CURRENCYRATE",
+    "name": "currencyrate",
+    "files": {
+      "filename": "currencyrate",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CVCB": {
+    "id": "CVCB",
+    "name": "cvcb",
+    "files": {
+      "filename": "cvcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "CZCB": {
+    "id": "CZCB",
+    "name": "czcb",
+    "files": {
+      "filename": "czcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "DEEXCHANGEAG": {
+    "id": "DEEXCHANGEAG",
+    "name": "deexchangeag",
+    "files": {
+      "filename": "deexchangeag",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "DKNB": {
+    "id": "DKNB",
+    "name": "dknb",
+    "files": {
+      "filename": "dknb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "DOCB": {
+    "id": "DOCB",
+    "name": "docb",
+    "files": {
+      "filename": "docb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "DRISTOREXCHANGE": {
+    "id": "DRISTOREXCHANGE",
+    "name": "dristorexchange",
+    "files": {
+      "filename": "dristorexchange",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "DZBA": {
+    "id": "DZBA",
+    "name": "dzba",
+    "files": {
+      "filename": "dzba",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "DZBNA": {
+    "id": "DZBNA",
+    "name": "dzbna",
+    "files": {
+      "filename": "dzbna",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "DZCPA": {
+    "id": "DZCPA",
+    "name": "dzcpa",
+    "files": {
+      "filename": "dzcpa",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "DZDEVISESQUARE": {
+    "id": "DZDEVISESQUARE",
+    "name": "dzdevisesquare",
+    "files": {
+      "filename": "dzdevisesquare",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ECCB": {
+    "id": "ECCB",
+    "name": "eccb",
+    "files": {
+      "filename": "eccb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "EGBLACKMARKET": {
+    "id": "EGBLACKMARKET",
+    "name": "egblackmarket",
+    "files": {
+      "filename": "egblackmarket",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "EGCB": {
+    "id": "EGCB",
+    "name": "egcb",
+    "files": {
+      "filename": "egcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ETCB": {
+    "id": "ETCB",
+    "name": "etcb",
+    "files": {
+      "filename": "etcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "EUCB": {
+    "id": "EUCB",
+    "name": "eucb",
+    "files": {
+      "filename": "eucb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "EUTAVEX": {
+    "id": "EUTAVEX",
+    "name": "eutavex",
+    "files": {
+      "filename": "eutavex",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "EXIMBANK": {
+    "id": "EXIMBANK",
+    "name": "eximbank",
+    "files": {
+      "filename": "eximbank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "FAIRFX": {
+    "id": "FAIRFX",
+    "name": "fairfx",
+    "files": {
+      "filename": "fairfx",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "FEX": {
+    "id": "FEX",
+    "name": "fex",
+    "files": {
+      "filename": "fex",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "FIRSTBANK": {
+    "id": "FIRSTBANK",
+    "name": "firstbank",
+    "files": {
+      "filename": "firstbank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "FJRB": {
+    "id": "FJRB",
+    "name": "fjrb",
+    "files": {
+      "filename": "fjrb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "FOREXPK": {
+    "id": "FOREXPK",
+    "name": "forexpk",
+    "files": {
+      "filename": "forexpk",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GBBE": {
+    "id": "GBBE",
+    "name": "gbbe",
+    "files": {
+      "filename": "gbbe",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GBBESTFOREIGNEXCHANGE": {
+    "id": "GBBESTFOREIGNEXCHANGE",
+    "name": "gbbestforeignexchange",
+    "files": {
+      "filename": "gbbestforeignexchange",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GBCOG": {
+    "id": "GBCOG",
+    "name": "gbcog",
+    "files": {
+      "filename": "gbcog",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GBCOVENTGARDENFX": {
+    "id": "GBCOVENTGARDENFX",
+    "name": "gbcoventgardenfx",
+    "files": {
+      "filename": "gbcoventgardenfx",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GBNMMONEY": {
+    "id": "GBNMMONEY",
+    "name": "gbnmmoney",
+    "files": {
+      "filename": "gbnmmoney",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GBNO1CURRENCY": {
+    "id": "GBNO1CURRENCY",
+    "name": "gbno1currency",
+    "files": {
+      "filename": "gbno1currency",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GBTHECURRENCYCLUB": {
+    "id": "GBTHECURRENCYCLUB",
+    "name": "gbthecurrencyclub",
+    "files": {
+      "filename": "gbthecurrencyclub",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GBTHOMASEXCHANGE": {
+    "id": "GBTHOMASEXCHANGE",
+    "name": "gbthomasexchange",
+    "files": {
+      "filename": "gbthomasexchange",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GBTRAVELFX": {
+    "id": "GBTRAVELFX",
+    "name": "gbtravelfx",
+    "files": {
+      "filename": "gbtravelfx",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GENB": {
+    "id": "GENB",
+    "name": "genb",
+    "files": {
+      "filename": "genb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GHBG": {
+    "id": "GHBG",
+    "name": "ghbg",
+    "files": {
+      "filename": "ghbg",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GMCB": {
+    "id": "GMCB",
+    "name": "gmcb",
+    "files": {
+      "filename": "gmcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GNCB": {
+    "id": "GNCB",
+    "name": "gncb",
+    "files": {
+      "filename": "gncb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GTBG": {
+    "id": "GTBG",
+    "name": "gtbg",
+    "files": {
+      "filename": "gtbg",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "GYCB": {
+    "id": "GYCB",
+    "name": "gycb",
+    "files": {
+      "filename": "gycb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "HKAB": {
+    "id": "HKAB",
+    "name": "hkab",
+    "files": {
+      "filename": "hkab",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "HNBC": {
+    "id": "HNBC",
+    "name": "hnbc",
+    "files": {
+      "filename": "hnbc",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "HRNB": {
+    "id": "HRNB",
+    "name": "hrnb",
+    "files": {
+      "filename": "hrnb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "HSBC": {
+    "id": "HSBC",
+    "name": "hsbc",
+    "files": {
+      "filename": "hsbc",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "HTBR": {
+    "id": "HTBR",
+    "name": "htbr",
+    "files": {
+      "filename": "htbr",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "HUNB": {
+    "id": "HUNB",
+    "name": "hunb",
+    "files": {
+      "filename": "hunb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ICBC": {
+    "id": "ICBC",
+    "name": "icbc",
+    "files": {
+      "filename": "icbc",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "IDBAR": {
+    "id": "IDBAR",
+    "name": "idbar",
+    "files": {
+      "filename": "idbar",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "IDBCA": {
+    "id": "IDBCA",
+    "name": "idbca",
+    "files": {
+      "filename": "idbca",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "IDBI": {
+    "id": "IDBI",
+    "name": "idbi",
+    "files": {
+      "filename": "idbi",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "IDBRI": {
+    "id": "IDBRI",
+    "name": "idbri",
+    "files": {
+      "filename": "idbri",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "IDBWS": {
+    "id": "IDBWS",
+    "name": "idbws",
+    "files": {
+      "filename": "idbws",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "IDEABANK": {
+    "id": "IDEABANK",
+    "name": "ideabank",
+    "files": {
+      "filename": "ideabank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "IDGMC": {
+    "id": "IDGMC",
+    "name": "idgmc",
+    "files": {
+      "filename": "idgmc",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "IDMMC": {
+    "id": "IDMMC",
+    "name": "idmmc",
+    "files": {
+      "filename": "idmmc",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "IDVIP": {
+    "id": "IDVIP",
+    "name": "idvip",
+    "files": {
+      "filename": "idvip",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ILBL": {
+    "id": "ILBL",
+    "name": "ilbl",
+    "files": {
+      "filename": "ilbl",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "INFBIL": {
+    "id": "INFBIL",
+    "name": "infbil",
+    "files": {
+      "filename": "infbil",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ING": {
+    "id": "ING",
+    "name": "ing",
+    "files": {
+      "filename": "ing",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "INRB": {
+    "id": "INRB",
+    "name": "inrb",
+    "files": {
+      "filename": "inrb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "INTESASANPAOLOBANK": {
+    "id": "INTESASANPAOLOBANK",
+    "name": "intesasanpaolobank",
+    "files": {
+      "filename": "intesasanpaolobank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "IQCB": {
+    "id": "IQCB",
+    "name": "iqcb",
+    "files": {
+      "filename": "iqcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "IRCB": {
+    "id": "IRCB",
+    "name": "ircb",
+    "files": {
+      "filename": "ircb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ISCB": {
+    "id": "ISCB",
+    "name": "iscb",
+    "files": {
+      "filename": "iscb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "JMBJ": {
+    "id": "JMBJ",
+    "name": "jmbj",
+    "files": {
+      "filename": "jmbj",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "JOCB": {
+    "id": "JOCB",
+    "name": "jocb",
+    "files": {
+      "filename": "jocb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "JPGPA": {
+    "id": "JPGPA",
+    "name": "jpgpa",
+    "files": {
+      "filename": "jpgpa",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "KECB": {
+    "id": "KECB",
+    "name": "kecb",
+    "files": {
+      "filename": "kecb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "KGNB": {
+    "id": "KGNB",
+    "name": "kgnb",
+    "files": {
+      "filename": "kgnb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "KHNB": {
+    "id": "KHNB",
+    "name": "khnb",
+    "files": {
+      "filename": "khnb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "KOBP": {
+    "id": "KOBP",
+    "name": "kobp",
+    "files": {
+      "filename": "kobp",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "KRBK": {
+    "id": "KRBK",
+    "name": "krbk",
+    "files": {
+      "filename": "krbk",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "KRSMBS": {
+    "id": "KRSMBS",
+    "name": "krsmbs",
+    "files": {
+      "filename": "krsmbs",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "KWCB": {
+    "id": "KWCB",
+    "name": "kwcb",
+    "files": {
+      "filename": "kwcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "KZNB": {
+    "id": "KZNB",
+    "name": "kznb",
+    "files": {
+      "filename": "kznb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "LABL": {
+    "id": "LABL",
+    "name": "labl",
+    "files": {
+      "filename": "labl",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "LBCB": {
+    "id": "LBCB",
+    "name": "lbcb",
+    "files": {
+      "filename": "lbcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "LBSAYRAFA": {
+    "id": "LBSAYRAFA",
+    "name": "lbsayrafa",
+    "files": {
+      "filename": "lbsayrafa",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "LIBRABANK": {
+    "id": "LIBRABANK",
+    "name": "librabank",
+    "files": {
+      "filename": "librabank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "LKCB": {
+    "id": "LKCB",
+    "name": "lkcb",
+    "files": {
+      "filename": "lkcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "LRCB": {
+    "id": "LRCB",
+    "name": "lrcb",
+    "files": {
+      "filename": "lrcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "LSCB": {
+    "id": "LSCB",
+    "name": "lscb",
+    "files": {
+      "filename": "lscb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "LYCB": {
+    "id": "LYCB",
+    "name": "lycb",
+    "files": {
+      "filename": "lycb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MABAM": {
+    "id": "MABAM",
+    "name": "mabam",
+    "files": {
+      "filename": "mabam",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MAYBANK2U": {
+    "id": "MAYBANK2U",
+    "name": "maybank2u",
+    "files": {
+      "filename": "maybank2u",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MDNB": {
+    "id": "MDNB",
+    "name": "mdnb",
+    "files": {
+      "filename": "mdnb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MGBF": {
+    "id": "MGBF",
+    "name": "mgbf",
+    "files": {
+      "filename": "mgbf",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MMCB": {
+    "id": "MMCB",
+    "name": "mmcb",
+    "files": {
+      "filename": "mmcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MNCB": {
+    "id": "MNCB",
+    "name": "mncb",
+    "files": {
+      "filename": "mncb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MOAMCM": {
+    "id": "MOAMCM",
+    "name": "moamcm",
+    "files": {
+      "filename": "moamcm",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MONEX": {
+    "id": "MONEX",
+    "name": "monex",
+    "files": {
+      "filename": "monex",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MUAMALAT": {
+    "id": "MUAMALAT",
+    "name": "muamalat",
+    "files": {
+      "filename": "muamalat",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MUBM": {
+    "id": "MUBM",
+    "name": "mubm",
+    "files": {
+      "filename": "mubm",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MVMA": {
+    "id": "MVMA",
+    "name": "mvma",
+    "files": {
+      "filename": "mvma",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MWRB": {
+    "id": "MWRB",
+    "name": "mwrb",
+    "files": {
+      "filename": "mwrb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MXAFM": {
+    "id": "MXAFM",
+    "name": "mxafm",
+    "files": {
+      "filename": "mxafm",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MXBA": {
+    "id": "MXBA",
+    "name": "mxba",
+    "files": {
+      "filename": "mxba",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MXBM": {
+    "id": "MXBM",
+    "name": "mxbm",
+    "files": {
+      "filename": "mxbm",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MXBNMX": {
+    "id": "MXBNMX",
+    "name": "mxbnmx",
+    "files": {
+      "filename": "mxbnmx",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MYBANKISLAM": {
+    "id": "MYBANKISLAM",
+    "name": "mybankislam",
+    "files": {
+      "filename": "mybankislam",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MYBN": {
+    "id": "MYBN",
+    "name": "mybn",
+    "files": {
+      "filename": "mybn",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MYCIMB": {
+    "id": "MYCIMB",
+    "name": "mycimb",
+    "files": {
+      "filename": "mycimb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "MZBC": {
+    "id": "MZBC",
+    "name": "mzbc",
+    "files": {
+      "filename": "mzbc",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "NABN": {
+    "id": "NABN",
+    "name": "nabn",
+    "files": {
+      "filename": "nabn",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "NBC": {
+    "id": "NBC",
+    "name": "nbc",
+    "files": {
+      "filename": "nbc",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "NGCB": {
+    "id": "NGCB",
+    "name": "ngcb",
+    "files": {
+      "filename": "ngcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "NGNRATES": {
+    "id": "NGNRATES",
+    "name": "ngnrates",
+    "files": {
+      "filename": "ngnrates",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "NONB": {
+    "id": "NONB",
+    "name": "nonb",
+    "files": {
+      "filename": "nonb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "NPRB": {
+    "id": "NPRB",
+    "name": "nprb",
+    "files": {
+      "filename": "nprb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "OMCB": {
+    "id": "OMCB",
+    "name": "omcb",
+    "files": {
+      "filename": "omcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "OTPBANK": {
+    "id": "OTPBANK",
+    "name": "otpbank",
+    "files": {
+      "filename": "otpbank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PATRIABANK": {
+    "id": "PATRIABANK",
+    "name": "patriabank",
+    "files": {
+      "filename": "patriabank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PECAMBIX": {
+    "id": "PECAMBIX",
+    "name": "pecambix",
+    "files": {
+      "filename": "pecambix",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PEHIRPOWER": {
+    "id": "PEHIRPOWER",
+    "name": "pehirpower",
+    "files": {
+      "filename": "pehirpower",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PEYANKI": {
+    "id": "PEYANKI",
+    "name": "peyanki",
+    "files": {
+      "filename": "peyanki",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PGCB": {
+    "id": "PGCB",
+    "name": "pgcb",
+    "files": {
+      "filename": "pgcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PHBS": {
+    "id": "PHBS",
+    "name": "phbs",
+    "files": {
+      "filename": "phbs",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PKSB": {
+    "id": "PKSB",
+    "name": "pksb",
+    "files": {
+      "filename": "pksb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PLNB": {
+    "id": "PLNB",
+    "name": "plnb",
+    "files": {
+      "filename": "plnb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PLVELOBANK": {
+    "id": "PLVELOBANK",
+    "name": "plvelobank",
+    "files": {
+      "filename": "plvelobank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PMRCB": {
+    "id": "PMRCB",
+    "name": "pmrcb",
+    "files": {
+      "filename": "pmrcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "POSTOFFICE": {
+    "id": "POSTOFFICE",
+    "name": "postoffice",
+    "files": {
+      "filename": "postoffice",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PROCREDITBANK": {
+    "id": "PROCREDITBANK",
+    "name": "procreditbank",
+    "files": {
+      "filename": "procreditbank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PSMA": {
+    "id": "PSMA",
+    "name": "psma",
+    "files": {
+      "filename": "psma",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "PYCB": {
+    "id": "PYCB",
+    "name": "pycb",
+    "files": {
+      "filename": "pycb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "QACB": {
+    "id": "QACB",
+    "name": "qacb",
+    "files": {
+      "filename": "qacb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "RBINTERNATIONAL": {
+    "id": "RBINTERNATIONAL",
+    "name": "rbinternational",
+    "files": {
+      "filename": "rbinternational",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ROBN": {
+    "id": "ROBN",
+    "name": "robn",
+    "files": {
+      "filename": "robn",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ROBT": {
+    "id": "ROBT",
+    "name": "robt",
+    "files": {
+      "filename": "robt",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ROEB": {
+    "id": "ROEB",
+    "name": "roeb",
+    "files": {
+      "filename": "roeb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ROING": {
+    "id": "ROING",
+    "name": "roing",
+    "files": {
+      "filename": "roing",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ROLIB": {
+    "id": "ROLIB",
+    "name": "rolib",
+    "files": {
+      "filename": "rolib",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ROMANEASCA": {
+    "id": "ROMANEASCA",
+    "name": "romaneasca",
+    "files": {
+      "filename": "romaneasca",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "RONEXENT": {
+    "id": "RONEXENT",
+    "name": "ronexent",
+    "files": {
+      "filename": "ronexent",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "RORAIFFEISEN": {
+    "id": "RORAIFFEISEN",
+    "name": "roraiffeisen",
+    "files": {
+      "filename": "roraiffeisen",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ROUNICREDIT": {
+    "id": "ROUNICREDIT",
+    "name": "rounicredit",
+    "files": {
+      "filename": "rounicredit",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ROVIPEXCHANGE": {
+    "id": "ROVIPEXCHANGE",
+    "name": "rovipexchange",
+    "files": {
+      "filename": "rovipexchange",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "RSNB": {
+    "id": "RSNB",
+    "name": "rsnb",
+    "files": {
+      "filename": "rsnb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "RUCB": {
+    "id": "RUCB",
+    "name": "rucb",
+    "files": {
+      "filename": "rucb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "RWBN": {
+    "id": "RWBN",
+    "name": "rwbn",
+    "files": {
+      "filename": "rwbn",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SACB": {
+    "id": "SACB",
+    "name": "sacb",
+    "files": {
+      "filename": "sacb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SAINSBURY": {
+    "id": "SAINSBURY",
+    "name": "sainsbury",
+    "files": {
+      "filename": "sainsbury",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SANTANDER": {
+    "id": "SANTANDER",
+    "name": "santander",
+    "files": {
+      "filename": "santander",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SBCB": {
+    "id": "SBCB",
+    "name": "sbcb",
+    "files": {
+      "filename": "sbcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SCCB": {
+    "id": "SCCB",
+    "name": "sccb",
+    "files": {
+      "filename": "sccb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SECONDLIFE": {
+    "id": "SECONDLIFE",
+    "name": "secondlife",
+    "files": {
+      "filename": "secondlife",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SERB": {
+    "id": "SERB",
+    "name": "serb",
+    "files": {
+      "filename": "serb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SGMAS": {
+    "id": "SGMAS",
+    "name": "sgmas",
+    "files": {
+      "filename": "sgmas",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SLCB": {
+    "id": "SLCB",
+    "name": "slcb",
+    "files": {
+      "filename": "slcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SOCB": {
+    "id": "SOCB",
+    "name": "socb",
+    "files": {
+      "filename": "socb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SRCB": {
+    "id": "SRCB",
+    "name": "srcb",
+    "files": {
+      "filename": "srcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SSBS": {
+    "id": "SSBS",
+    "name": "ssbs",
+    "files": {
+      "filename": "ssbs",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SVBC": {
+    "id": "SVBC",
+    "name": "svbc",
+    "files": {
+      "filename": "svbc",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SYCB": {
+    "id": "SYCB",
+    "name": "sycb",
+    "files": {
+      "filename": "sycb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "SZCB": {
+    "id": "SZCB",
+    "name": "szcb",
+    "files": {
+      "filename": "szcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "THBANGKOKBANK": {
+    "id": "THBANGKOKBANK",
+    "name": "thbangkokbank",
+    "files": {
+      "filename": "thbangkokbank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "THBT": {
+    "id": "THBT",
+    "name": "thbt",
+    "files": {
+      "filename": "thbt",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "THSCB": {
+    "id": "THSCB",
+    "name": "thscb",
+    "files": {
+      "filename": "thscb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "TJNB": {
+    "id": "TJNB",
+    "name": "tjnb",
+    "files": {
+      "filename": "tjnb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "TLBC": {
+    "id": "TLBC",
+    "name": "tlbc",
+    "files": {
+      "filename": "tlbc",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "TMCB": {
+    "id": "TMCB",
+    "name": "tmcb",
+    "files": {
+      "filename": "tmcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "TNCB": {
+    "id": "TNCB",
+    "name": "tncb",
+    "files": {
+      "filename": "tncb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "TORB": {
+    "id": "TORB",
+    "name": "torb",
+    "files": {
+      "filename": "torb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "TRCB": {
+    "id": "TRCB",
+    "name": "trcb",
+    "files": {
+      "filename": "trcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "TTCB": {
+    "id": "TTCB",
+    "name": "ttcb",
+    "files": {
+      "filename": "ttcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "TWCB": {
+    "id": "TWCB",
+    "name": "twcb",
+    "files": {
+      "filename": "twcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "TZCB": {
+    "id": "TZCB",
+    "name": "tzcb",
+    "files": {
+      "filename": "tzcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "UABLACKMARKET": {
+    "id": "UABLACKMARKET",
+    "name": "uablackmarket",
+    "files": {
+      "filename": "uablackmarket",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "UAEXCHANGER": {
+    "id": "UAEXCHANGER",
+    "name": "uaexchanger",
+    "files": {
+      "filename": "uaexchanger",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "UAMONO": {
+    "id": "UAMONO",
+    "name": "uamono",
+    "files": {
+      "filename": "uamono",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "UANB": {
+    "id": "UANB",
+    "name": "uanb",
+    "files": {
+      "filename": "uanb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "UAOSCHADBANK": {
+    "id": "UAOSCHADBANK",
+    "name": "uaoschadbank",
+    "files": {
+      "filename": "uaoschadbank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "UAPB": {
+    "id": "UAPB",
+    "name": "uapb",
+    "files": {
+      "filename": "uapb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "UAUKRSIBBANK": {
+    "id": "UAUKRSIBBANK",
+    "name": "uaukrsibbank",
+    "files": {
+      "filename": "uaukrsibbank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "USASEXCHANGE": {
+    "id": "USASEXCHANGE",
+    "name": "usasexchange",
+    "files": {
+      "filename": "usasexchange",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "USRS": {
+    "id": "USRS",
+    "name": "usrs",
+    "files": {
+      "filename": "usrs",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "UYCB": {
+    "id": "UYCB",
+    "name": "uycb",
+    "files": {
+      "filename": "uycb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "UZCB": {
+    "id": "UZCB",
+    "name": "uzcb",
+    "files": {
+      "filename": "uzcb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "VECB": {
+    "id": "VECB",
+    "name": "vecb",
+    "files": {
+      "filename": "vecb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "VNCB": {
+    "id": "VNCB",
+    "name": "vncb",
+    "files": {
+      "filename": "vncb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "VNVIETCOMBANK": {
+    "id": "VNVIETCOMBANK",
+    "name": "vnvietcombank",
+    "files": {
+      "filename": "vnvietcombank",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "VURB": {
+    "id": "VURB",
+    "name": "vurb",
+    "files": {
+      "filename": "vurb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "WAMA": {
+    "id": "WAMA",
+    "name": "wama",
+    "files": {
+      "filename": "wama",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "WSCB": {
+    "id": "WSCB",
+    "name": "wscb",
+    "files": {
+      "filename": "wscb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "YECB": {
+    "id": "YECB",
+    "name": "yecb",
+    "files": {
+      "filename": "yecb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ZARB": {
+    "id": "ZARB",
+    "name": "zarb",
+    "files": {
+      "filename": "zarb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ZMBZ": {
+    "id": "ZMBZ",
+    "name": "zmbz",
+    "files": {
+      "filename": "zmbz",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  },
+  "ZWRB": {
+    "id": "ZWRB",
+    "name": "zwrb",
+    "files": {
+      "filename": "zwrb",
+      "svg": true,
+      "png": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ],
+      "webp": [
+        "32",
+        "48",
+        "64",
+        "128",
+        "256",
+        "512"
+      ]
+    }
+  }
+}
