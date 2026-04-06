@@ -16,6 +16,23 @@ Currency, flag, and provider icon assets in SVG, PNG, and WebP formats.
 - `providers/index.json` - provider versions manifest
 - `providers/<version>/index.json` - provider asset map for one version
 
+## Inventory Reports
+
+Generate the Markdown inventories with:
+
+```bash
+python3 scripts/generate_icon_reports.py
+```
+
+The generator writes two browsable reports:
+
+| Report | Description |
+| --- | --- |
+| [reports/currencies-inventory.md](reports/currencies-inventory.md) | Canonical and legacy currency assets with SVG links, raster coverage by size, and current labels. |
+| [reports/providers-inventory.md](reports/providers-inventory.md) | Provider inventories by imported version with SVG links, raster coverage by size, and current labels. |
+
+Label overrides live in `metadata/currency-labels.json` and `metadata/provider-labels.json`. If a label is not confirmed yet, keep it as `-` and regenerate the reports.
+
 ## Requirements
 
 macOS:
