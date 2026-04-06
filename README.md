@@ -48,13 +48,15 @@ sudo apt-get update
 sudo apt-get install -y inkscape librsvg2-bin webp awscli
 ```
 
-## Generate Currency WebP
+## Generate Currency Raster Assets
 
 ```bash
 ./svg2webp.sh
 ```
 
 Generated sizes: `32`, `48`, `64`, `128`, `256`, `512`.
+
+The script refreshes both `currencies/png/` and `currencies/webp/`, then syncs the legacy `png/` and `webp/` mirrors.
 
 The canonical currency output lives under `currencies/`. The root `svg/`, `png/`, and `webp/` folders remain as compatibility mirrors for existing consumers.
 
@@ -120,7 +122,7 @@ You can also load them from `.env`.
 Recommended local flow:
 
 1. Configure `R2_ENDPOINT_URL`, `R2_ACCESS_KEY_ID`, and `R2_SECRET_ACCESS_KEY` in your shell or in `.env`.
-2. Regenerate currency raster assets. `./svg2webp.sh` refreshes `currencies/webp/` and syncs the legacy root `webp/` mirror. If PNG assets changed, refresh `currencies/png/` and `png/` as part of the same update.
+2. Regenerate currency raster assets. `./svg2webp.sh` refreshes `currencies/png/` and `currencies/webp/`, then syncs the legacy root `png/` and `webp/` mirrors.
 3. If provider assets changed, refresh them with `./import-provider-icons.sh --version 3.1.16` or another required version.
 4. Commit provider SVG, PNG, and WebP assets together with refreshed provider manifests.
 5. Run `./deploy-r2.sh` for a full publish to R2, or `./deploy-providers-r2.sh` when only provider assets need to be published.
